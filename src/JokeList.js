@@ -45,7 +45,6 @@ class JokeList extends Component {
   }
 
   vote(direction, id) {
-    console.log(direction, id);
     let newJoke = {
       joke: this.state.jokes[id].joke,
       votes: this.state.jokes[id].votes,

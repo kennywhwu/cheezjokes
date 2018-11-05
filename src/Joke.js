@@ -9,7 +9,7 @@ class Joke extends Component {
   render() {
     return (
       <div className="Joke">
-        {this.props.joke}{' '}
+        <span>{this.props.joke}</span>
         <i
           className="up fas fa-thumbs-up"
           onClick={() => this.props.handleClick('up', this.props.id)}
@@ -18,7 +18,7 @@ class Joke extends Component {
           className="down fas fa-thumbs-down"
           onClick={() => this.props.handleClick('down', this.props.id)}
         />{' '}
-        {this.props.votes}
+        <i className="vote-total">{this.props.votes}</i>
       </div>
     );
   }

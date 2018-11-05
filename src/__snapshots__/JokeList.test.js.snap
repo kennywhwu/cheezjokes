@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match snapshot 1`] = `
+<div
+  className="JokeList"
+>
+  <h1>
+    It's loading already, can you just wait a minute please???
+  </h1>
+</div>
+`;
